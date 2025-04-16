@@ -1,8 +1,5 @@
 const getUserNames = (users) => {
-    const userNames = [];
-    users.filter((user) => userNames.push(user.name));
-
-    return userNames;
+    return users.map(user => user.name);
 }
 
 
